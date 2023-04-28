@@ -1,0 +1,84 @@
+/* Dashboard styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+}
+
+.filter-btn {
+  padding: 10px;
+  border: none;
+  background-color: #ddd;
+  color: #333;
+  cursor: pointer;
+}
+
+.filter-btn.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+.panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: #333;
+  font-size: 16px;
+  height: 175px;
+}
+
+.panel-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.panel-content .p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 10px;
+  }
+
+.panel-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 36px;
+}
+
+.panel:hover {
+  background-color: #f2f2f2;
+}
+
+.category1 {
+  background-color: #ffcc00;
+}
+
+.category2 {
+  background-color: #00ccff;
+}
+
+.category3 {
+  background-color: #ff6666;
+}
